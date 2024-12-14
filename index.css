@@ -205,10 +205,10 @@ body {
         margin-bottom: 5px;
     }
     .mission .layout .contentt .missions  {
-        /* margin-bottom: 5px; */
+        width: 100%;
         text-align: center;
         align-items: center;
-        margin-left: 120px;
+        margin-left: 10px;
         
     }
     .mission .layout .contentt .missions .card {
