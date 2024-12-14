@@ -207,7 +207,8 @@ body {
     .mission .layout .contentt .missions  {
         /* margin-bottom: 5px; */
         text-align: center;
-        margin-left: 105px;
+        align-items: center;
+        margin-left: 120px;
         
     }
     .mission .layout .contentt .missions .card {
