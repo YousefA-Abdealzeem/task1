@@ -214,6 +214,8 @@ body {
     .mission .layout .contentt .missions .card {
         width: calc(100% / 3);
         text-align: center;
+        margin-bottom: 20px;
+        height: 100px;
         
     }
     .mission .layout h2{
@@ -272,6 +274,7 @@ body {
     width: 90%;
     margin-right: auto;
     text-align: center;
+    font-size: 12px;
 }
 .mission .layout h2{
     width: 40%;
@@ -288,6 +291,7 @@ body {
         width: 100%; 
         text-align: center;
         margin: 0 auto; 
+        margin-bottom: 15px;
     }
     .mission .layout h2 {
         width: 80%; 
@@ -303,6 +307,23 @@ body {
 }
 
 @media(max-width:439px){
+    .mission .layout .contentt .missions {
+        font-display: 20%;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+    .mission .layout .contentt .missions .card {
+        width: 100%; 
+        text-align: center;
+        margin: 0 auto; 
+        margin-bottom: 15px;
+    }
+    .mission .layout h2 {
+        width: 80%; 
+        margin: 0 auto; 
+    }
     
     .content button{
         padding: 1rem 2rem;
