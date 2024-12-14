@@ -202,12 +202,12 @@ body {
     }
     .mission .layout .contentt .image{
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     .mission .layout .contentt .missions  {
-        margin-bottom: 20px;
+        /* margin-bottom: 5px; */
         text-align: center;
-        margin-left: 190px;
+        margin-left: 105px;
         
     }
     .mission .layout .contentt .missions .card {
@@ -266,25 +266,41 @@ body {
         width: 50%;
     }
 }
-@media(max-width:350px){
+@media(max-width: 390px) {
     .mission .layout .contentt .missions .card {
-        width: 50%;
-        text-align: center;
-        margin-right: 300px;
-    }
-    .mission .layout h2{
-        width: 60%;
-    }
-
-    .content button{
-        padding: 1rem 2rem;
-    font-size: 1.5rem;
-    border: 10rem;
-    cursor: pointer;
-    margin-top: 2rem;
-    }
+    width: 90%;
+    margin-right: auto;
+    text-align: center;
+}
+.mission .layout h2{
+    width: 40%;
     
 }
+    .mission .layout .contentt .missions {
+        font-display: 20%;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+    .mission .layout .contentt .missions .card {
+        width: 100%; 
+        text-align: center;
+        margin: 0 auto; 
+    }
+    .mission .layout h2 {
+        width: 80%; 
+        margin: 0 auto; 
+    }
+    .content button {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+
+}
+
 @media(max-width:439px){
     
     .content button{
